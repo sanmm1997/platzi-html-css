@@ -1,0 +1,39 @@
+@media (max-width: 600px) {
+
+    .main_section {
+        padding: 4%;
+    }
+
+    .products {
+        display: inherit;
+        height: auto;
+        padding: 10% 15%;
+    }
+
+    .products .product {
+        margin-top: auto;
+    }
+
+    .featured_section {
+        display: inherit;
+        padding: 10%;
+    }
+
+    .featured_section .featured {
+        padding: 0 10%;
+    }
+
+
+    .testimonials {
+        padding: 10% 15%;
+    }
+
+    .testimonials .testimonials_list {
+        display: inherit;
+    }
+
+    .testimonials .testimonials_list .testimonial {
+        padding: 0.5%;
+        margin-top: 10%;
+    }
+}
