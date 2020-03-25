@@ -2,6 +2,10 @@
 
 First app with HTML & CSS.
 
+## IMPORTANT 
+
+View this project in https://platzi-html-css.now.sh/
+
 ## SCREENSHOTS
 
 ![Screenshot](./.readme-static/screenshot-home.png)
