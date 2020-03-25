@@ -1,5 +1,4 @@
 @media (max-width: 600px) {
-
     .main_section {
         padding: 4%;
     }
@@ -14,26 +13,38 @@
         margin-top: auto;
     }
 
-    .featured_section {
+    .featured-section {
         display: inherit;
         padding: 10%;
     }
 
-    .featured_section .featured {
+    .featured-section .featured {
         padding: 0 10%;
     }
-
 
     .testimonials {
         padding: 10% 15%;
     }
 
-    .testimonials .testimonials_list {
+    .testimonials .testimonials-list {
         display: inherit;
     }
 
-    .testimonials .testimonials_list .testimonial {
+    .testimonials .testimonials-list .testimonial {
         padding: 0.5%;
         margin-top: 10%;
+    }
+
+    .products h1 {
+        margin-left: inherit;
+    }
+
+    .products .row:nth-child(odd) {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+
+    .products .row .product-content {
+        text-align: center;
     }
 }

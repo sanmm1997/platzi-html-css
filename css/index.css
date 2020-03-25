@@ -1,0 +1,113 @@
+
+
+/* -------------------------- Main section -------- */
+
+.main-section {
+  padding: 10%;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  height: 50px;
+  padding: 20% 20% 10% 20%;
+  background-size: cover;
+  justify-content: center;
+  background-position: center top;
+  background-image: url("../images/curve.png");
+}
+
+.products .product {
+  padding: var(--space);
+  margin-top: -300px;
+}
+
+.products .product .content {
+  padding: 15px;
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+}
+
+.products .product .content h2 {
+  text-align: center;
+}
+
+.products .product .img-content {
+  text-align: center;
+}
+
+/* -------------------------- Featured section -------- */
+
+.featured-section {
+  display: flex;
+  padding: 5% 10%;
+  justify-content: center;
+  border-bottom: solid 1px var(--gray-color);
+}
+
+.featured {
+  padding: calc(var(--space) * 5);
+}
+
+.featured .img-content {
+  text-align: center;
+  display: block;
+}
+
+.featured .img-content img {
+  max-height: 100px;
+  max-width: 100%;
+}
+
+.featured .content {
+  padding: 10%;
+}
+
+.featured .content h3{
+  text-align: center;
+}
+
+.featured .content p{
+  text-align: justify;
+}
+
+/* -------------------------- Testimonials section -------- */
+
+.testimonials {
+  padding: 5% 10%;
+}
+
+.testimonials-title h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 5%;
+}
+
+.testimonials-list {
+  display: flex;
+}
+
+.testimonial {
+  padding: 0.5%;
+}
+
+.testimonial .content {
+  box-shadow: 2px 4px 4px #0000002b;
+}
+
+.testimonial .content .img-content img {
+  width: 100%;
+}
+
+.testimonial .content .text-content {
+  padding: 10px;
+}
+
+.testimonial .content .text-content h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+

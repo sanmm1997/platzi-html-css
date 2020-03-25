@@ -1,0 +1,46 @@
+/*
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+*/
+
+.products {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.products h1 {
+    font-size: 2.5em;
+    margin-left: -80px;
+}
+
+.product > .product-img > img {
+    width: 100%;
+    padding: 5% 10%;
+    box-sizing: border-box;
+}
+
+.product > div {
+    align-self: center;
+}
+
+.product > .product-content {
+    box-sizing: border-box;
+}
+
+.product > .product-content p {
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.product > .product-content:nth-child(even) {
+    padding-left: 5%;
+}
+
+.product > .product-content:nth-child(odd) {
+    padding-right: 5%;
+}
+

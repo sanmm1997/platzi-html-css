@@ -1,0 +1,89 @@
+/*
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+*/
+
+/* ------------------------ Variables */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/* -------------------------- General styles -------- */
+
+.main-button {
+    background-color: var(--green-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: 17px;
+    color: var(--white-color);
+    border: none;
+}
+
+.main-button:hover {
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: #5e9e22;
+}
+
+.py-5 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+p, label {
+    font-size: var(--normal);
+}
+
+/* -------------------------- Nav bar styles -------- */
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: var(--space);
+    justify-content: space-between;
+    background-color: var(--green-color);
+}
+
+html, body{
+    padding:0;
+    margin:0;
+    font-size: var(--normal);
+    font-family: 'Open sans', serif;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul > li {
+    list-style: none;
+    padding-left: calc(var(--space) * 2);
+}
+
+nav ul > li a {
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+nav ul > li a:hover {
+    color: var(--white-color);
+}
+
+/* -------------------------- Footer section -------- */
+
+footer {
+    height: 60px;
+    display: flex;
+    color: var(--white-color);
+    align-items: center;
+    background-color: #313337;
+    justify-content: space-between;
+}
+
+footer > div {
+    padding: 0 2%;
+    text-align: left;
+    font-size: var(--normal);
+}
